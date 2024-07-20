@@ -167,6 +167,3 @@ Route::post('module-update', [ModuleController::class, 'module_update']);
 //  Route::get('edit-employee-developer-detail/{id}',[ProjectTaskController::class,'edit_employee_developer_detail']);
 //  Route::post('edit-employee-developer-detail',[ProjectTaskController::class,'udate_employee_developer_detail']);
 //  Route::get('delete-employee-developer-detail/{id}',[ProjectTaskController::class,'delete_employee_developer_detail']);
-
-
-Route::post('hello', [ModuleController::class, 'hello']);
